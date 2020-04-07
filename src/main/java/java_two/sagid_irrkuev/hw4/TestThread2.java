@@ -62,5 +62,6 @@ public class TestThread2 {
         System.out.println(arr[999]);
     }
 
-    void add() {};
+    void add(int a) {};
+    boolean add() {return true;};
 }
