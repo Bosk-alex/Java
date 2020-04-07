@@ -1,4 +1,4 @@
-package java_two.sagid_irrkuev;
+package java_two.sagid_irrkuev.hw2;
 
 import java.util.Random;
 

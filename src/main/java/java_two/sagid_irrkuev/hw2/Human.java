@@ -1,11 +1,11 @@
-package java_two.sagid_irrkuev;
+package java_two.sagid_irrkuev.hw2;
 
-public class Robot implements Sport {
+public class Human implements Sport {
     private String name;
     private int access = 0;
     private int accessRun = 0;
 
-    Robot(String name) {
+    Human(String name) {
         this.name = name;
     }
 

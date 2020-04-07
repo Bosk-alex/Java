@@ -1,4 +1,4 @@
-package java_two.sagid_irrkuev;
+package java_two.sagid_irrkuev.hw2;
 
 public class Main {
 
@@ -15,7 +15,7 @@ public class Main {
             System.out.println("******** Уровень: " + (i + 1) + " ***********");
             System.out.println("--------------------");
             for (int j = 0; j < sportsmen.length; j++) {
-                jumpHardLevel[i].jump(sportsmen[j]);
+                sportsmen[j].jump(jumpHardLevel[i].getMinJump());
                 System.out.println("***");
             }
         }
@@ -25,7 +25,7 @@ public class Main {
             System.out.println("******* Уровень: " + (i + 1) + " *******");
             System.out.println("-------------------");
             for (int j = 0; j < sportsmen.length; j++) {
-                runHardLevel[i].run(sportsmen[j]);
+                sportsmen[j].run(runHardLevel[i].getMinDistance());
                 System.out.println("***");
             }
         }
