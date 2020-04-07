@@ -61,4 +61,7 @@ public class TestThread2 {
         System.out.println(System.currentTimeMillis() - timeStart);
         System.out.println(arr[999]);
     }
+
+    void add(int a) {};
+    boolean add() {return true;};
 }
